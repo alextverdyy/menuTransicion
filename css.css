@@ -1,0 +1,107 @@
+body {
+    font: .8em Verdana, Arial, Helvetica, sans-serif;
+}
+#menu {
+    width: 100px;
+    padding: 20px;
+    border: 1px solid #333;
+    background-color: #ccc;
+    margin: 0 auto;
+
+    -webkit-box-shadow: 10px 10px 50px 1px #D1E3FF;
+    box-shadow: 10px 10px 50px 1px #D1E3FF;
+    text-shadow: 2px 2px 2px #73FAFF;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+    -webkit-transition: background 10s ease;
+    -moz-transition: background 10s ease;
+    -ms-transition: background 10s ease;
+    -o-transition: background 10s ease;
+    transition: background 10s ease;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f3e2c7+0,c19e67+50,b68d4c+51,e9d4b3+100;L+Brown+3D */
+    background: rgb(243,226,199); /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  rgba(243,226,199,1) 0%, rgba(193,158,103,1) 50%, rgba(182,141,76,1) 51%, rgba(233,212,179,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg,  rgba(243,226,199,1) 0%,rgba(193,158,103,1) 50%,rgba(182,141,76,1) 51%,rgba(233,212,179,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg,  rgba(243,226,199,1) 0%,rgba(193,158,103,1) 50%,rgba(182,141,76,1) 51%,rgba(233,212,179,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3e2c7', endColorstr='#e9d4b3',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+
+}
+#menu ul {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#menu ul li {
+    width: 70px;
+    height: 20px;
+    margin: 0 0 30px 0;
+}
+#menu ul li:last-child {
+    margin: 0;
+}
+#menu ul li a.enlace {
+    position: absolute;
+    z-index: 100;
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    color: gold;
+    text-shadow:
+            -1px -1px 0 #000,
+            1px -1px 0 #000,
+            -1px 1px 0 #000,
+            1px 1px 0 #000;
+}
+#menu ul li div {
+    position: absolute;
+    z-index: 50;
+    left: 0;
+    top: 0;
+    width: 100px;
+    height: 120px;
+    border: 1px solid #fff;
+    opacity: 0;
+    background-color: black;
+    padding: 15px;
+    overflow: hidden;
+    color: white;
+    text-align: right;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f2e2cb+1,bfa072+50,bfa072+50,bfa072+50,b59565+51,e8d8c0+100 */
+    background: rgb(242,226,203); /* Old browsers */
+    background: -moz-linear-gradient(45deg,  rgba(242,226,203,1) 1%, rgba(191,160,114,1) 50%, rgba(191,160,114,1) 50%, rgba(191,160,114,1) 50%, rgba(181,149,101,1) 51%, rgba(232,216,192,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg,  rgba(242,226,203,1) 1%,rgba(191,160,114,1) 50%,rgba(191,160,114,1) 50%,rgba(191,160,114,1) 50%,rgba(181,149,101,1) 51%,rgba(232,216,192,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg,  rgba(242,226,203,1) 1%,rgba(191,160,114,1) 50%,rgba(191,160,114,1) 50%,rgba(191,160,114,1) 50%,rgba(181,149,101,1) 51%,rgba(232,216,192,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2e2cb', endColorstr='#e8d8c0',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+#menu ul li div p {
+    width: 300px;
+}
+#menu ul li div {
+    position: absolute;
+    z-index: 500;
+    left: 0;
+    top: 0;
+    width: 300px;
+    height: 120px;
+    border: 1px solid #fff;
+    opacity: 0;
+    background-color: black;
+    padding: 15px;
+    overflow: hidden;
+    color: rgba(123, 20, 100, 12);
+    text-align: right;
+    -webkit-box-shadow: 4px 5px 30px 5px #BA9606;
+    box-shadow: 4px 5px 30px 5px #BA9606;
+    -webkit-transition: all 2s linear;
+    -moz-transition: all 2s linear;
+    -ms-transition: all 2s linear;
+    -o-transition: all 2s linear;
+    transition: all 2s linear;
+}
+#menu ul li:hover div{
+    left: 130px;
+    opacity: 1;
+}
